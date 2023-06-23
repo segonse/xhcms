@@ -1,7 +1,7 @@
 # xhcms
 vul_description
 
-Through source code analysis, the downloads function is realized by cid and links taken out of the database on the downloads page. As long as the administrator cookie is obtained or csrf is used, the path of sensitive files written when the administrator publishes the download can be directly exploited, thus causing any file download vulnerability.
+Through source code analysis, the downloads.php function is realized by cid and links taken out of the database on the downloads page. As long as the administrator cookie is obtained or csrf is used, the path of sensitive files written when the administrator publishes the download can be directly exploited, thus causing any file download vulnerability.
 # Administrator account password:admin/admin,You can also use the broken access control vulnerability of the cms to directly log in to the management interface(https://github.com/Peanuts-s/XHcms)
 
 The file link is the system file path.
